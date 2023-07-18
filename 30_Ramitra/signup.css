@@ -1,0 +1,67 @@
+/* CSS untuk halaman sign up */
+body {
+  font-family: Arial, sans-serif;
+  background-color: red;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: burlywood;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.form-group input[type="submit"] {
+  background-color: black;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+  color: red;
+  transition: ease 0.3s;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.check input[type="checkbox"] {
+  margin-left: 110px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: green;
+  margin-top: 5px;
+}

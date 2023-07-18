@@ -1,0 +1,401 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: burlywood;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    font-family: sans-serif;
+    color: black;
+    position: relative;
+    padding: 1px;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: fixed;
+    top: 0;
+    background: red;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight:  bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: white;
+    transition: ease 0.3s;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    padding-top: 70px;
+    margin-bottom: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+section img {
+    width: 30%;
+    margin-top: 25px;
+}
+
+.about {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+
+.about img {
+    width: 40%;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 180px;
+    text-align: center;
+    position: relative;
+    align-items: center;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+
+.abt {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 180px;
+    text-align: center;
+    align-items: center;
+}
+
+.abt .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+
+.pfp {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.pfp .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+
+.glr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.glr .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: 1000;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: blue;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: black;
+    text-decoration: none;
+    transition: ease 0.3s;
+}
+
+a.tbl-merah {
+    background: black;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-merah:hover {
+    background: red;
+    text-decoration: none;
+    transition: ease 0.3s;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;     
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.my-profile {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-fav {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.my-fav img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.my-fav p {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.my-photo {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.random-photo {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.random-photo img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+#contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+h2 {
+    margin-bottom: 20px;
+  }
+  
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color: #45a049;
+  }
+  
+footer {
+    background-color: red;
+    color: black;
+    padding-top: 30px;
+  }
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+.footer-content h2 {
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-section {
+    flex-basis: 45%;
+    padding: 0 20px;
+  }
+  
+.social-links a {
+    color: black;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+  
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    background-color: bisque;
+    padding: 10px 0px;
+  }
+ 
+@media screen and (max-width: 991.98px) {
+    .container {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .my-fav {
+        width: 50%; 
+    }
+
+    .random-photo {
+        width: 50%;
+    }
+}
